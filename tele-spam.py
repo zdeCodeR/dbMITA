@@ -24,7 +24,7 @@ def main():
     TOKEN = input("[?] Masukkan BOT TOKEN: ")
     chat_ids_raw = input("[?] Masukkan Chat ID (pisahkan dengan koma): ")
     CHAT_IDS = [cid.strip() for cid in chat_ids_raw.split(",")]
-    IMAGE_PATH = input("[?] Masukkan path foto (contoh: foto.jpg): ")
+    IMAGE_PATH = input("[?] Masukkan path foto (contoh: IMG-20250711-WA0096.jpg): ")
     CAPTION = input("[?] Masukkan caption/text: ")
     LOOP_COUNT = int(input("[?] Kirim berapa kali?: "))
     DELAY = int(input("[?] Delay antar kirim (detik): "))
